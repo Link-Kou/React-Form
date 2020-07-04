@@ -1,4 +1,4 @@
-### 基于 React +  React Suite + Bpmn.js 结合
+### 基于 React +  React Suite + sortable.js 结合
 
 ### 在线预览 https://link-kou.github.io/React-Form
 
