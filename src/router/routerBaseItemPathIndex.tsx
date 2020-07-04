@@ -36,6 +36,16 @@ export const routes: Array<IRoute> = [
         })
     },
     {
+        key: 'BuildForm',
+        title: '表单构建',
+        exact: false,
+        path: '/index/buildForm',
+        screen: Loadable({
+            loader: () => RouterLoadableDelay(import('../application/buildForm')),
+            ...RouterLoadableConfigBase
+        })
+    },
+    {
         key: '404',
         title: '404',
         exact: false,

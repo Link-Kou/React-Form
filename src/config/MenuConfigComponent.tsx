@@ -1,4 +1,3 @@
-import * as React from 'react';
 import {Svg} from '@resource/svg';
 
 /**
@@ -85,122 +84,6 @@ export interface IDropdownItem {
 
 export const MenuConfig: Array<IMenuConfig> = [
     {
-        key: '用户管理',
-        type: {
-            type: 'Dropdown',
-            ico: 'cube',
-            title: () => (<span>用户管理</span>),
-            items: [
-                {
-                    key: 'DropdownItem-1',
-                    type: 'DropdownItem',
-                    content: '菜单1',
-                    ico: 'order-form',
-                    route: '/404'
-                },
-                {
-                    key: 'DropdownItem-2',
-                    type: 'DropdownItem',
-                    content: '菜单2',
-                    ico: 'order-form',
-                    route: '/404'
-                }
-            ]
-        }
-    },
-    {
-        key: '订单管理',
-        type: {
-            type: 'Dropdown',
-            ico: 'cube',
-            title: () => (<span>订单管理</span>),
-            items: [
-                {
-                    key: 'DropdownItem-3',
-                    type: 'DropdownItem',
-                    content: '菜单1',
-                    ico: 'order-form',
-                    route: '/404'
-                },
-                {
-                    key: 'DropdownItem-4',
-                    type: 'DropdownItem',
-                    content: '菜单2',
-                    ico: 'order-form',
-                    route: '/404'
-                },
-                {
-                    key: 'DropdownItem-5',
-                    type: 'DropdownItem',
-                    content: '菜单4',
-                    ico: 'order-form',
-                    route: '/404'
-                }
-            ]
-        }
-    },
-    {
-        key: '营销管理',
-        type: {
-            type: 'Dropdown',
-            ico: 'cube',
-            title: () => (<span>营销管理</span>),
-            items: [
-                {
-                    key: 'XXX营销',
-                    type: 'DropdownMenu',
-                    title: () => (<span className={'asdasda'}>XXX营销</span>),
-                    ico: 'order-form',
-                    items: [
-                        {
-                            key: 'DropdownItem-6',
-                            type: 'DropdownItem',
-                            content: '菜单1',
-                            ico: 'order-form',
-                            route: '/404'
-                        },
-                        {
-                            key: 'DropdownItem-7',
-                            type: 'DropdownItem',
-                            content: '菜单2',
-                            ico: 'order-form',
-                            route: '/404'
-                        },
-                        {
-                            key: 'DropdownItem-8',
-                            type: 'DropdownMenu',
-                            title: () => (<span className={'asdasda'}>菜单3</span>),
-                            ico: 'order-form',
-                            items: [
-                                {
-                                    key: 'DropdownItem-8-1',
-                                    type: 'DropdownItem',
-                                    content: '菜单1',
-                                    ico: 'order-form',
-                                    route: '/404'
-                                },
-                                {
-                                    key: 'DropdownItem-8-2',
-                                    type: 'DropdownItem',
-                                    content: '菜单2',
-                                    ico: 'order-form',
-                                    route: '/404'
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    key: 'DropdownItem-9',
-                    type: 'DropdownItem',
-                    content: '菜单4',
-                    ico: 'order-form',
-                    route: '/404'
-                }
-            ]
-        }
-    },
-    {
         key: '代码示列',
         type: {
             type: 'NavItem',
@@ -216,18 +99,18 @@ export const MenuConfig: Array<IMenuConfig> = [
         }
     },
     {
-        key: 'NavItem-2',
+        key: '表单构建',
         type: {
             type: 'NavItem',
             /**
              * 内容
              */
-            content: '菜单2',
+            content: '表单构建',
             /**
              * 图标
              */
-            ico: 'cube',
-            route: '/404'
+            ico: Svg.ztree,
+            route: '/index/buildForm'
         }
     }
 ]
