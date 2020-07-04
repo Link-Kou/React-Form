@@ -1,0 +1,39 @@
+.app-from-left-controller {
+  width: 25%;
+  height: 100%;
+  padding: 5px;
+  background-color: #fff;
+
+  .app-from-left-controller-group {
+    padding: 0 5px;
+    margin-bottom: 25px;
+
+    p {
+      height: 45px;
+      line-height: 45px;
+      padding-left: 5px;
+    }
+
+    .app-from-left-controller-group-panle {
+      width: 100%;
+      display: flex;
+    }
+
+    .app-from-left-controller-group-item {
+      width: 120px;
+      height: 35px;
+      margin-right: 10px;
+      border: 1px solid #e8e8e8;
+      background-color: #F6F7FF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: move;
+      &:hover {
+        border: 1px dashed #787be8;
+        color: #787be8;
+      }
+    }
+  }
+
+}
